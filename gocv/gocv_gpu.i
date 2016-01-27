@@ -1,5 +1,5 @@
 %{
-#include "gocv_core_gpumat.hpp"
+#include "gocv_gpu.hpp"
 %}
 
 namespace cv {
@@ -11,4 +11,4 @@ namespace cv {
         }
 }
 
-%include "gocv_core_gpumat.hpp"
+%include "gocv_gpu.hpp"
